@@ -57,9 +57,38 @@ ul{
 }
 
 /*PLAN*/
+.plan .col, .about-us .col{
+    border: 1px solid black;
+    height: 400px;
+    width: 50%;
+    margin: 20px;
+}
 
 /*PARTNERS*/
+.partner .col{
+    width: 100%;
+}
+
+.col-partner .card{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 100px;
+    margin: 10px;
+}
 
 /*BENEFIT*/
+.benefit .col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
 
+.col-benefit div{
+    border: 1px solid black;
+    margin: 10px;
+    background-color: white;
+    height: 200px;
+    width: calc(100% / 3 - 40px);
+}
 /*ABOUT US*/
