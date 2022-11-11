@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .row{
     display: flex;
 }
@@ -27,14 +31,49 @@ section{
     background-color: rgba(151,146,228,255);
 }
 
+.rounded{
+    border-radius: 20px;
+}
 /* Style Header */
+.site-header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo{
+    padding: 5px;
+}
+
 .bg-blue{
-    height: 40px;
+    height: 50px;
     background-color: rgba(0,132,253,255);
 }
 
-ul{
+.style-list{
     list-style-type: none;
+    text-align: center;
+    display: flex;
+    font-size: 13px;
+}
+
+.text{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttom{
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
 /* Style Main */
@@ -67,7 +106,7 @@ ul{
 .partner .col{
     width: 100%;
 }
-
+ 
 .col-partner .card{
     border: 1px solid black;
     border-radius: 20px;
@@ -76,14 +115,14 @@ ul{
 }
 
 /*BENEFIT*/
-.benefit .col{
+.benefit .row{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
 
-.col-benefit div{
+.benefit .col{
     border: 1px solid black;
     margin: 10px;
     background-color: white;
@@ -104,3 +143,22 @@ footer .bg-black {
     background-color: rgb(59, 57, 57);
     height: 150px;
 }
+
+/* MEDIA */
+/* Desktop */
+@media screen and (min-width: 992){
+    .container{
+        max-width: 940px;
+    }
+}
+
+
+@media screen and (min-width: 768){
+    .container {
+       max-width: 750px;
+    }
+}
+
+
+
+
