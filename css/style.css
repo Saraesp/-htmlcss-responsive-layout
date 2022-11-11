@@ -161,6 +161,7 @@ section{
 .plan .col-right p, .plan .col-right h3{
     color: black;
 }
+
 /*PARTNERS*/
 .partner{
     font-size: 12px;
@@ -227,6 +228,38 @@ section{
     padding-top: 50px;
 }
 
+/*BENEFIT*/
+.benefit .col{
+    color: rgba(151,146,228,255);
+    padding: 15px;
+}
+
+.benefit h2{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.benefit h4{
+    font-size: 40px;
+}
+
+.benefit h3{
+    font-size: 15px;
+}
+
+.benefit p{
+  font-size: 10px;
+  margin: 5px 0;
+}
+
+.benefit .buttom{
+    background-color: rgba(151,146,228,255);
+    font-size: 8px;
+    color: white;
+    padding: 5px 20px;
+}
 
 
 /* MEDIA */
@@ -267,21 +300,18 @@ section{
        margin: 20px;
     }
 
-
-    /*BENEFIT*/
-    .benefit .row{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-    }
-    
+    /*BENEFIT*/    
     .benefit .col{
-        border: 1px solid black;
         margin: 10px;
         background-color: white;
         height: 200px;
         width: calc(100% / 3 - 40px);
+    }
+    
+    .benefit .section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     /*ABOUT US*/
     
