@@ -6,6 +6,7 @@
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet"> 
 </head>
 <body>
@@ -16,13 +17,15 @@
                 <a class="logo" href="">
                     <img src="./img/logo.png" alt="">
                 </a>
-               
+                <span class="hamburger text-white">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
                 <nav class="main-menu">
                     <ul class="style-list">
-                        <li><a class="text" href="#Planning">Planning</a> </li>
-                        <li><a class="text" href="#Testimonials">Testimonials</a> </li>
-                        <li><a class="text" href="#Features">Features</a> </li>
-                        <li><a class="text" href="#About">About Us</a> </li>
+                        <li><a class="text-white" href="#Planning">Planning</a> </li>
+                        <li><a class="text-white" href="#Testimonials">Testimonials</a> </li>
+                        <li><a class="text-white" href="#Features">Features</a> </li>
+                        <li><a class="text-white" href="#About">About Us</a> </li>
                         <li><a class="buttom rounded" href="">Get Started</a></li>
                     </ul>
                 </nav>
@@ -32,19 +35,56 @@
 
     <main>
         <!-- section intro -->
+        <div class="container">
         <section class="intro">
-            <div class="container">
-                <div class="col rounded">
-                    <div>
-                        <h3 class="title"></h3>
-                        <p class="text"></p>
-                        
+                <div class="row">
+                    <div class="col rounded">
+                        <div class="content">
+                            <h3 class="title">Get a demo application</h3>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ration nobis, architecto ad dolor quod, facere totam quas recusandae blanditiis.
+                            </p>
+                            <a class="bg-blue text-white  rounded" href="">
+                                <i class="fa-brands fa-apple"></i>App Store
+                            </a>
+                        </div>
+                        <div>
+                            <img class="image" src="./img/phone.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="" alt="">
-                    </a>
+                    <div class="col rounded text-center">
+                        <i class="icon fa-solid fa-file-code"></i>
+                        <h3 class="title">Clean Code</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ration nobis, architecto ad dolor quod, facere totam quas recusandae blanditiis.
+                        </p>
+                    </div>
+                    <div class="col rounded text-center">
+                        <i class="icon fa-solid fa-compass-drafting"></i>
+                        <h3 class="title">Web Design</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ration nobis, architecto ad dolor quod, facere totam quas recusandae blanditiis.
+                        </p>
+                    </div>
+                    <div class="col rounded text-center">
+                        <i class="icon fa-solid fa-laptop-code"></i>
+                        <h3 class="title">Development</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ration nobis, architecto ad dolor quod, facere totam quas recusandae blanditiis.
+                        </p>
+                    </div>
+                    <div class="col rounded text-center">
+                        <i class="icon fa-solid fa-bullhorn"></i>
+                        <h3 class="title">Branding</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ration nobis, architecto ad dolor quod, facere totam quas recusandae blanditiis.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>

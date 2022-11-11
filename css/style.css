@@ -6,7 +6,7 @@
 }
 
 .container{
-    width: 65%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -24,7 +24,7 @@ body{
 }
 
 section{
-    height: 500px;
+   width: 100%;
 }
 
 .bg-violet{
@@ -34,22 +34,28 @@ section{
 .rounded{
     border-radius: 20px;
 }
+
+.buttom{
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.text-center{
+    text-align: center;
+}
 /* Style Header */
-.site-header{
-    position: sticky;
-    top: 0;
-    z-index: 10;
+.bg-blue{
+    height: 50px;
+    background-color: rgba(0,132,253,255);
 }
 
 .logo{
     padding: 5px;
 }
 
-.bg-blue{
-    height: 50px;
-    background-color: rgba(0,132,253,255);
-}
-
+/* Lista */
 .style-list{
     list-style-type: none;
     text-align: center;
@@ -57,7 +63,7 @@ section{
     font-size: 13px;
 }
 
-.text{
+.text-white {
     text-decoration: none;
     color: white;
     margin: 10px;
@@ -69,94 +75,128 @@ section{
     align-items: center;
 }
 
-.buttom{
-    background: white;
-    color: black;
-    text-decoration: none;
-    padding: 5px 10px;
+/* INTRO */
+.intro .col .icon{
+    font-size: 50px;
+    color: rgba(0,132,253,255);
+    margin-top: 20px;
 }
 
-/* Style Main */
-/*INTRO*/
-.intro .col{
-    background-color: aqua;
-    margin: 10px;
-    height: 200px;
-    width: 100%;
-    border-radius: 20px;
+.intro .col .title{
+   font-size: 15px;
+   margin: 20px 15px;
+   color: rgba(0,132,253,255);
 }
 
-.intro .col-right{
-    width: 70%;
+.intro .col .text{
+    font-weight: 600;
+    color: rgb(87, 86, 86);
+    font-size: 10px;
+    line-height: 2;
+    margin: 15px;
 }
 
-.intro .col.left{
-    width: 30%;
+.intro .col .image{
+    display: block;
+    max-width: 200px;
+    margin-top: 20px;
 }
 
-/*PLAN*/
-.plan .col, .about-us .col{
-    border: 1px solid black;
-    height: 400px;
-    width: 50%;
-    margin: 20px;
+.content p{
+    margin-bottom: 20px;
 }
 
-/*PARTNERS*/
-.partner .col{
-    width: 100%;
-}
- 
-.col-partner .card{
-    border: 1px solid black;
-    border-radius: 20px;
-    height: 100px;
-    margin: 10px;
+.content a{
+    padding: 10px 20px;
+    font-size: 10px;
 }
 
-/*BENEFIT*/
-.benefit .row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+.fa-apple{
+    margin-right: 10px;
+    font-size: 15px;
 }
-
-.benefit .col{
-    border: 1px solid black;
-    margin: 10px;
-    background-color: white;
-    height: 200px;
-    width: calc(100% / 3 - 40px);
-}
-/*ABOUT US*/
-
-
-/* Style Footer */
-
-footer .bg-violet {
-    background-color: rgba(151,146,228,255);
-    height: 350px;
-}
-
-footer .bg-black {
-    background-color: rgb(59, 57, 57);
-    height: 150px;
-}
-
 /* MEDIA */
 /* Desktop */
-@media screen and (min-width: 992){
+@media all and (min-width: 992px){
     .container{
         max-width: 940px;
     }
+    
+    /* Style Main */
+    /*INTRO*/
+    .row{
+        flex-wrap: wrap;
+    }
+    
+    .intro .col{
+        background-color: rgba(181,221,255,255);
+        margin: 10px;
+        width: calc(100%/3 - 20px);
+    }
+
+    .intro .col:first-child{
+        width: calc(100%/3 * 2 - 20px)
+    }
+
+    /*PLAN*/
+    .plan .col, .about-us .col{
+        border: 1px solid black;
+        height: 400px;
+        width: 50%;
+        margin: 20px;
+    }
+    
+    /*PARTNERS*/
+    .partner .col{
+        width: 100%;
+    }
+     
+    .col-partner .card{
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 100px;
+        margin: 10px;
+    }
+    
+    /*BENEFIT*/
+    .benefit .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .benefit .col{
+        border: 1px solid black;
+        margin: 10px;
+        background-color: white;
+        height: 200px;
+        width: calc(100% / 3 - 40px);
+    }
+    /*ABOUT US*/
+    
+    
+    /* Style Footer */
+    
+    footer .bg-violet {
+        background-color: rgba(151,146,228,255);
+        height: 350px;
+    }
+    
+    footer .bg-black {
+        background-color: rgb(59, 57, 57);
+        height: 150px;
+    }
+    
 }
 
-
-@media screen and (min-width: 768){
+/* Tablet */
+@media screen and (min-width: 768px){
     .container {
-       max-width: 750px;
+        max-width: 750px;
     }
+    
+    
 }
 
 
