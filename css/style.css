@@ -317,11 +317,69 @@ section{
 .about .margin-bottom{
     margin-bottom: 50px;
 }
+
+/* BOTTOM BANER */
+
+.bottom-baner{
+    padding: 20px;
+    text-align: center;
+}
+
+.bottom-baner h3{
+    font-size: 50px;
+    color: orange;
+}
+
+.bottom-baner p{
+    padding: 20px 150px;
+    font-size: 12px;
+}
+
+.bottom-baner .btn{
+  background-color: white;
+  padding: 20px 50px;
+  font-size: 15px;
+  color: rgba(151,146,228,255);
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.bottom-baner .copy{
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.bottom-baner .color-white{
+    color: white;
+}
+
+/* FOOTER */
+.bg-black p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px 150px;
+}
+
+.bg-black .text-white{
+    text-align: center;
+   font-size: 12px;
+}
+
+.bg-black .color-violet{
+    color: rgba(151,146,228,255);
+    font-size: 12px;
+}
+
 /* MEDIA */
 /* Desktop */
 @media all and (min-width: 992px){
     .container{
         max-width: 940px;
+    }
+
+    .site-header .hamburger{
+        display: none;
     }
     
     /* Style Main */
