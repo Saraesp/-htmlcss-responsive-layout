@@ -162,6 +162,12 @@ section{
     color: black;
 }
 
+.plan .fa-arrow-down{
+    padding: 15px;
+    background-color: rgba(151,146,228,255);
+    border-radius: 50%;
+}
+
 /*PARTNERS*/
 .partner{
     font-size: 12px;
@@ -449,7 +455,15 @@ section{
         max-width: 750px;
     }
     
-    
+    .intro .col{
+        background-color: rgba(181,221,255,255);
+        margin: 10px;
+        width: calc(100%/3 - 20px);
+    }
+
+    .intro .col:first-child{
+        width: calc(100%/3 * 2 - 20px)
+    }
 }
 
 
